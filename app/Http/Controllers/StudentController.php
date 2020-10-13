@@ -10,4 +10,20 @@ class StudentController extends Controller
       $data = config('students');
       return view('studenti',compact('data'));
     }
-}
+
+//     protected $students;
+//
+//     public function _construct(){
+//       $this->getAllStudent();
+//     }
+//     protected function getAllStudent(){
+//       $this->students = config('students');
+//     }
+//     public function studenti(){
+//       $data=$this->students;
+//       return view('students',compact('data'));
+//     }
+//     public function show($id){
+//       dd($his->$students[$id]);
+//     }
+ }
